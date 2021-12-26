@@ -1,0 +1,562 @@
+.img-ico{
+    display: inline-block;
+    width: 20px;
+}
+
+.connectButton{
+    -webkit-border-radius: 90px; -moz-border-radius: 90px; border-radius: 90px;
+}
+
+.custom-mb-3{
+    margin-bottom: 2rem!important;
+}
+
+#airdropMe:hover .fa-cloud-download{
+    transition:color 0.5s linear;
+    color: #f9b707;
+}
+
+#airdropMe{
+    color: white;
+}
+
+.dropLeft{
+    display: block;
+    margin-bottom: -10px;
+    margin-top: 20px;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 2px;
+}
+
+
+#launcher{
+    margin-top: 50px;
+}
+
+.form-launcher{
+    background-color: #131519;
+    border-radius: 10px;
+    padding: 19px;
+    height: 100%;
+}
+
+::placeholder {
+    color: #8e8e8e !important;
+}
+.form-checkbox{
+    margin-left: 20px;
+}
+
+div[disabled]
+{
+    pointer-events: none;
+    opacity: 0.4;
+}
+
+div.active-step{
+    border: 1px solid #f9b7078c;
+    border-radius: 10px;
+    padding: 0;
+}
+
+div.step{
+    margin-top: 20px;
+}
+
+.connectNotice{
+    margin: 20px;
+}
+
+.connectNotice h6{
+    margin-top: 10px;
+}
+
+.connectNotice a{
+    color: #f9b707;
+}
+
+.nav-box{
+    background-color: #ffffff1f;
+}
+
+.dashboard-enable{
+    border: 1px solid #54d534d6;
+    background-color: #54d5341f;
+}
+.dashboard-disable{
+    border: 1px solid #d55934d6;
+    background-color: #d559342b
+}
+
+.dashboard-box{
+    margin-bottom: 20px;
+    border: 2px #ffffff66 solid;
+    padding: 15px;
+    border-radius: 8px;
+    background: #131519
+}
+
+.accordion-title:before {
+    margin-top: -4px;
+    -webkit-box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.06); -moz-box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.06); box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.06); cursor: pointer; content: "\f107"; font-family: "FontAwesome";
+    float: right;
+    display: inline-block;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    line-height: 35px;
+    height: 33px;
+    width: 35px;
+    font-weight: normal; -webkit-transition: all 0.25s ease-in-out 0s; -moz-transition: all 0.25s ease-in-out 0s; transition: all 0.25s ease-in-out 0s; background: #f9b707; border-radius: 90px;
+}
+
+@media only screen and (max-width:767px) {
+    .airdrop-status {
+        display: none;
+    }
+}
+
+.airdrop-status {
+    font-size: 15px;
+    position: absolute;
+    right: 75px;
+    border-radius: 13px;
+    padding: 0px 15px;
+    line-height: 20px;
+}
+
+.panel-body{
+    margin-top: 15px;
+}
+
+.form input {
+    position: relative;
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    padding-left: 20px;
+    height: 48px;
+    line-height: 48px;
+    clear: both;
+    color: #f9b707;
+    border: 1px solid #202228;
+    background: #202228;
+}
+
+.updateDropAmountInput{
+    margin-right: 76px;
+}
+
+input.updateDropAmountInput::-webkit-outer-spin-button,
+input.updateDropAmountInput::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+/* Firefox */
+input.updateDropAmountInput[type=number] {
+    -moz-appearance: textfield;
+}
+
+.append-submit{
+    border-radius: 0px 3px 3px 0px;
+    background: #ffffff1f;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.append-submit:nth-child(1n+2){
+    right: 75px;
+    border-radius: 0px 0px 0px 0px;
+}
+
+.enable-button{
+    border-radius: 3px;
+    background: #28a745 !important;
+}
+
+.disable-button{
+    border-radius: 3px;
+    background: #d55934d6 !important;
+}
+
+.action-button{
+    border-radius: 3px;
+    margin: 5px;
+    color: #262626;
+}
+
+.button-btn{
+    color: #fff;
+    cursor: pointer;
+    padding: 10px 30px;
+    border: none;
+    font-weight: 800;
+    font-size: 16px;
+    position: relative;
+    font-family: 'Comfortaa', cursive;
+    display: inline-block;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+}
+
+.network-info{
+    border: 1px #f9b7071f solid;
+    border-radius: 13px;
+    padding: 0px 15px;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+@media only screen and (max-width:767px) {
+    .network-info {
+        display: none;
+    }
+}
+
+.small-i{
+    font-size: 12px;
+}
+
+#airdropDashboard .dashboardForm{
+    background: #131519;
+    border-radius: 13px;
+    padding: 40px 40px;
+    margin-bottom: 50px;
+}
+
+.modalForm{
+        background: #131519;
+        border-radius: 13px;
+        padding: 40px 40px;
+        margin-bottom: 50px;
+}
+
+/*#airdropDashboard .dashboardForm {
+    background: #131519;
+    border-radius: 13px;
+    padding: 40px 40px;
+    margin-bottom: 20px;
+}*/
+
+
+#removeAirdrop{
+    float: right;
+    color: #dc3545;
+}
+
+.col-gap {
+    column-gap: 4rem;
+}
+
+.alert{
+    z-index: 99999;
+    position: absolute;
+    top: 20px;
+    left: 0;
+    right: 0;
+}
+
+.wrongChain {
+    background-color: #f90707;
+}
+
+.dropperLogo{
+    width: 65px;
+    height: 65px;
+    position: absolute;
+    top: -25px;
+    left: -10px;
+    border-radius: 50%;
+}
+
+
+.blink::before {
+    content: "🚨";
+    animation: blinker 2s linear infinite alternate;
+}
+
+.blink::after {
+    content: "🚨";
+    animation: blinker 2s linear infinite alternate;
+}
+@keyframes blinker {
+    0% {
+        content: "🚨";
+    }
+    50% {
+        opacity: 0%;
+    }
+    100% {
+        content: "🤪";
+    }
+}
+
+
+.airdrop-banner {
+    padding: 20px;
+    background-color: #323438;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.banner-logo{
+    background-color: #262626;
+    border-radius: 50%;
+    border: 3px solid #f9b70785;
+    width: 100px;
+    height: 100px;
+}
+
+.airdrop-banner .token-info{
+    margin-left: 10px;
+}
+.airdrop-banner .token-info h6{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+small {
+    font-weight: 400;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 3px;
+}
+
+.claimdrop-button{
+    padding: 0;
+}
+
+.claimdrop-button button{
+    color: black;
+    background: #e8e8e8 !important;
+    padding: 5px 10px;
+    margin: 8px 5px;
+    width: 160px;
+}
+
+.claimdrop-button button:hover{
+    background: rgba(255, 255, 255, 0.78) !important;
+}
+
+
+.claimdrop-title span{
+    font-size: 20px;
+    color: #16c784;
+}
+
+.smart-contract-link{
+    font-size: 9px;
+}
+
+#progress-bar-claimleft{
+    margin-top: 30px;
+}
+
+.icon-fix-weight{
+    font-weight: 400;
+}
+
+.textarea-theme-custom{
+    position: relative;
+    width: 100%;
+    margin-bottom: 5px;
+    border-radius: 10px;
+    padding: 10px;
+    height: 450px;
+    clear: both;
+    color: #fff;
+    border: 1px solid #202228;
+    background: #202228;
+    font-family: monospace;
+}
+
+.button-disable:hover{
+    cursor: not-allowed;
+}
+
+.timeline-item {
+    background-color: #323438;
+    border: 1px solid;
+    border-color: #323438;
+    border-radius: 3px;
+    padding: 12px;
+    margin: 0 auto;
+}
+
+@keyframes placeHolderShimmer {
+    0% {
+        background-position: 0 0;
+    }
+
+    100% {
+        background-position: 10000px 0;
+    }
+}
+
+#faq .row {
+    margin-bottom: 42px;
+}
+
+.animated-background {
+    animation-duration: 40s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-name: placeHolderShimmer;
+    background: #323438;
+    background: linear-gradient(to right, #616268 8%, #4f5056 18%, #323438 33%);
+    height: 266px;
+    position: relative;
+}
+
+.background-masker {
+    background: #323438;
+    position: absolute;
+}
+
+/* Every thing below this is just positioning */
+
+.background-masker.content-top,
+.background-masker.content-last,
+.background-masker.content-last-end,
+.background-masker.content-second-line-dropper,
+.background-masker.content-third-line-contract,
+.background-masker.content-second-end-dropper,
+.background-masker.content-third-end-contract,
+.background-masker.content-first-end,
+.background-masker.content-fourth-end-dropleft,
+.background-masker.content-fourth-line-dropleft,
+.background-masker.content-five-end-dropclaim,
+.background-masker.content-five-line-dropclaim
+ {
+    top: 40px;
+    left: 0;
+    right: 0;
+    height: 6px;
+}
+
+.background-masker.content-first {
+    height: 0px;
+    top: 15px;
+    left: 0;
+    right: 0;
+}
+
+.background-masker.content-top {
+    height: 20px;
+}
+
+.background-masker.content-first-end,
+.background-masker.content-second-end-dropper,
+.background-masker.content-third-end-contract,
+.background-masker.content-fourth-end-dropleft,
+.background-masker.content-five-end-dropclaim, 
+.background-masker.content-last-end {
+    width: auto;
+    left: 380px;
+    right: 0;
+    top: 60px;
+    height: 8px;
+}
+
+.background-masker.content-second-line-dropper {
+    top: 75px;
+    height:8px;
+}
+
+.background-masker.content-second-end-dropper {
+    left: 420px;
+    top: 74px;
+}
+
+.background-masker.content-third-line-contract {
+    top: 97px;
+    height:8px;
+}
+
+.background-masker.content-third-end-contract {
+    left: 300px;
+    top: 88px;
+}
+
+.background-masker.content-fourth-line-dropleft {
+    top: 118px;
+    height: 8px;
+}
+
+.background-masker.content-fourth-end-dropleft {
+    left: 300px;
+    top: 88px;
+}
+
+.background-masker.content-five-line-dropclaim {
+    top: 140px;
+    height: 8px;
+}
+
+.background-masker.content-five-end-dropclaim {
+    left: 300px;
+    top: 88px;
+}
+
+.background-masker.content-last {
+    top: 140px;
+    height: 80px;
+}
+
+.background-masker.content-end-last{
+    left: 300px;
+    top: 88px;
+}
+
+.connectionStep{
+    background: #131519;
+}
+
+.textarea-dashboard-picture{
+    height:96.3%;
+}
+
+.textarea-dashboard {
+     height:91%;
+}
+
+.listing-filter-box {
+    text-align: left;
+    padding: 20px;
+    background-color: #131519;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.air-token-info{
+    margin:15px;
+    border-left: 1px orange solid;
+    border-right: 1px orange solid;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 30px;
+}
+
+.listing-filter-box-input{
+  margin-bottom: 0px !important;
+  border-radius: 90px !important;
+}
+.listing-filter-box-btn{
+  margin-bottom: 0px !important;
+  border-radius: 90px;
+}
+
+#claimAirdropBtn{
+    color: black;
+}
+
+html,
+body {
+    overflow-x: hidden;
+}
+
+body {
+    position: relative
+}

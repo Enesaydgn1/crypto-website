@@ -1,0 +1,21 @@
+
+----ZAMAN SAYACI----
+
+<!-- <ul id="countdown">
+								<li class="border-white"><span id="days">00</span>
+									<p class="days_text">Days</p>
+								</li>
+								<li class=" border-white"><span id="hours">00</span>
+									<p class="hours_text">Hours</p>
+								</li>
+								<li class=" border-white"><span id="minutes">00</span>
+									<p class="minutes_text">Minutes</p>
+								</li>
+								<li class="border-white"><span id="seconds">00</span>
+									<p class="seconds_text">Seconds</p>
+								</li>
+</ul>-->
+
+
+
+site üzerinde dalgalanan animasyon olmasa optimizasyon sorunu ortadan kalkacak
